@@ -1,0 +1,63 @@
+*,
+*:focus,
+*:hover {
+  outline: none;
+}
+
+body {
+  width: 400px;
+  height: 400px;
+}
+
+.container {
+  padding: 15px;
+}
+
+h1,
+h2 {
+  color: #e74c3c;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #a1a1aa;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #e74c3c;
+}
+
+input::placeholder {
+  color: #a1a1aa;
+}
+
+p {
+  font-size: 16px;
+}
+
+.btn {
+  margin-top: 15px;
+  background-color: #a1a1aa;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+img {
+  width: 200px;
+}
+
+.qrsection {
+  margin-top: 20px;
+}
